@@ -1,0 +1,16 @@
+h1{
+    color: teal;
+}
+h3{
+    color: blue;
+    font-family: Arial;
+    font-size: bold;
+}
+p{
+    color: brown;
+}
+.destacados{
+    color: aqua;
+    font-weight: bold;
+    font-style: arial;
+}
