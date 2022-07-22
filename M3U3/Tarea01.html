@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        distancia = prompt("Determine una distancia", " ");
+        if (distancia <= 1000) {
+            console.log("pie")
+        }
+        else if (distancia <= 10000) {
+            console.log("bicicleta")
+        }
+        else if (distancia <= 30000) {
+            console.log("colectivo")
+        }
+        else if (distancia <= 100000) {
+            console.log("auto")
+        }
+
+        else {
+            console.log("avión");
+        } 
+    </script>
+    <script>
+        var numeros = [3, 45, 27, 109, 150, 88, 100];
+        var mayor = 0;
+
+        for (var i = 0; i < numeros.length; i++) {
+            if (numeros [i] > mayor) {
+                mayor = numeros[i];
+            }
+        }
+
+        console.log ("El mayor de " + numeros + " es " + mayor);
+
+
+
+    </script>
+
+
+</body>
+
+</html>
