@@ -23,7 +23,7 @@ const HomePage = (props) => {
                     <h2>Testimonios</h2>
                     <div className='testimonio'>
                         <span className="cita">Excelente servicio</span>
-                        <span className="autor">Rubén Sanchez</span>
+                        <span className="autor"> Rubén Sanchez</span>
 
                     </div>
 

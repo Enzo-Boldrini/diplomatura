@@ -4,6 +4,20 @@ import React from 'react';
 const NosotrosPage = (props) => {
     return (
         <main className='holder'>
+            <div className="historia">
+            <h2>Quienes Somos</h2>
+            <p>
+                Somos un equipo de personas entusiastas del Marketing Digital, apasionados por la estrategia y dedicados
+                a acompañar a nuestros clientes durante todo el proceso de planificación, gestión y optimización de su
+                Plan de Marketing Digital. Hacemos hincapié en el análisis y desarrollo de su estrategia, planificación
+                y proyección de su negocio, siempre con un enfoque basado en resultados.
+            </p>
+            <p>
+                Contamos con profesionales experimentados en el area del Marketing Digital, entusiastas del trabajo en
+                equipo y de la mejora continua, con un claro enfoque en los resultados.
+            </p>
+
+        </div>
             
             <div className="Staff">
                 <h2>Staff</h2>
