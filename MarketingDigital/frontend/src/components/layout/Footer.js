@@ -1,4 +1,5 @@
-import React from 'react'; //esto lo agregue como solución a un error//
+import React from 'react'; 
+import '../../styles/layout.css';
 
 
 const Footer = (props) => {

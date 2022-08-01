@@ -1,4 +1,6 @@
-import React from 'react'; //esto lo agregue como solución a un error//
+import React from 'react'; 
+import '../styles/ServiciosPage.css';
+
 
 const ServiciosPage = (props) => {
     return (

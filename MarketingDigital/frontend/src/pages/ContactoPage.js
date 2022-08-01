@@ -1,9 +1,11 @@
-import React from 'react'; //esto lo agregue como solución a un error//
+import React from 'react'; 
+import '../styles/ContactoPage.css';
+
 
 const ContactosPage = (props) => {
     return (
         <main className='holder'>
-            <div className="Columna contacto">
+            <div className="contacto">
                 <h2>Complete el siguiente formulario</h2>
                 <form action="" method="" className="formulario">
                     <p>
