@@ -1,0 +1,43 @@
+/*
+font-family: "grape nuts", cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+h2{
+    color: red;
+    font-family: "grape nuts", cursive;
+    font-size: 150px;
+
+}
+
+.caja{
+    width: 600px;
+    height: 200px;
+    margin: 100px;
+    background: #278df6;
+    background: linear-gradient(98deg,#278df6 0%, #0a7a98 80%);
+    background: -webkit-linear-gradient(98deg,#278df6 0%, #0a7a98 80%);
+    background: -moz-linear-gradient(98deg,#278df6 0%, #0a7a98 80%);
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 0 20px 50px;
+    box-shadow: 10px 10px 5px black;
+    /*eje x - eje Y - desenfoque - color*/
+    border: 1px solid white;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+
+
+}
+.caja p{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+.grande{
+    color: green;
+    font-size: 100px;
+    
+}
