@@ -52,7 +52,7 @@ router.get("/modificar/:id", async (req, res, next) => {
   var id = req.params.id;
   var novedad = await novedadesModel.getNovedadById(id);
 
-  res.render("/admin/modificar", {
+  res.render("admin/modificar", {
     layout: "admin/layout",
     novedad
   })
@@ -67,8 +67,8 @@ router.post("/modificar", async (req, res, next) => {
       cuerpo: req.body.cuerpo
     }
 
-    await novedadesModel.modificarNovedadById (obj, req.body.id);
-    res.redirect ("/admin/novedades");
+    await novedadesModel.modificarNovedadById(obj, req.body.id);
+    res.redirect("/admin/novedades");
 
 
   } catch (error) {

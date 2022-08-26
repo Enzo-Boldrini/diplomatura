@@ -32,6 +32,7 @@ async function getNovedadById(id) {
 
 }
 
+
 async function modificarNovedadById(Obj, id){
     try {
         var query = "update novedades set ? where id=?"
